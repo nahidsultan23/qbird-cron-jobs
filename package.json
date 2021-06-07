@@ -1,0 +1,19 @@
+{
+  "name": "project-cron-jobs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cronJobs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.747.0",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.10.1",
+    "node-cron": "^2.0.3",
+    "shuffle-array": "^1.0.1"
+  }
+}

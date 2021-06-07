@@ -1,0 +1,18 @@
+let constants = {
+    // Order or delivery state
+    ORDER_PLACED: 0,
+    REQUEST_ASSIGNED: 1,
+    WAITING_FOR_RESPONSE: 2,
+    WAITING_FOR_DECISION: 3,
+    ACCEPTED: 4,
+    SHOPPING_STARTED: 5,
+    SHOPPING_ENDED: 6,
+    OUT_FOR_DELIVERY: 7,
+    DELIVERY_COMPLETION_REQUEST: 8,
+    DELIVERY_COMPLETED: 9,
+    NO_DELIVERY_PERSON_FOUND: 10,
+    DELIVERY_CANCELED: 11,
+    ORDER_CANCELED: 12
+};
+
+module.exports = constants;
